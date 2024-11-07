@@ -30,6 +30,8 @@ public class GradeBook {
                 case "2":
                     System.out.println("Goodbye!");
                     return;
+
+                // Challenge: write another option to allow updating grades for a selected student
             }
         }
     }
