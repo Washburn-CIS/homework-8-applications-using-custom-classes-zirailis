@@ -1,13 +1,10 @@
 public class Student {
-
-    /** determines the overall exam score for CM111 in FA23. 
-        The lowest exam score is dropped and the remaining 4 scores
-        are averaged to the nearest point.
-    */
-    public static double getExamAverage(double exam1, double exam2, 
-                                        double exam3, double exam4, 
-                                        double practicalExam) {
-        return 0; //TODO: (checkpoint 1) Implement this method
-    }
-
+    String firstName, lastName;
+    double grade;
+    public String getLastName() { return lastName; }
+    public void setLastName(String newLastName) { lastName = newLastName; }
+    public String getFirstName() { return firstName; }
+    public void setFirstName(String newFirstName) { firstName = newFirstName; }
+    public double getGrade() { return grade; }
+    public void setGrade(double newGrade) { grade = newGrade; }
 }
